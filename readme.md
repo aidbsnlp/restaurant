@@ -41,13 +41,3 @@ You need to add checks, constraints, or triggers to add the following functional
 - When the order table is updated so that a timestamp is added to the `filled` column of a tuple (denoting when the order was filled), the ingredients should be subtracted from inventory.
 
 - Once a timestamp has been added to the 'filled' column, it shouldn't be able to be changed.
-
-## Deliverables
-
-You should upload to Submitty a single file: `homework_4.sql`. It should contain your fully implemented code.
-
-The due date for this assignment is **15:59 on Thursday March 21**.
-
-## Grading
-
-The assignment will be graded by running similar unit tests on your submitted `.sql` file. Five points will be awarded for a passing unit test, for a total of thirty (30) possible. No partial credit will be awarded for a failed unit test.
